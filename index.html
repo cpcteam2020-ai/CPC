@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>CPC-Service</title>
+  <style>
+    body{margin:0;min-height:100vh;display:grid;place-items:center;background:#002969;color:#fff;font:18px/1.8 Tahoma,sans-serif;text-align:center}
+    main{padding:32px}a{display:inline-block;padding:12px 26px;border-radius:12px;background:#a2f7e2;color:#002969;text-decoration:none}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>CPC-Service</h1>
+    <p>กำลังพาไปยังเว็บขอใช้บริการ…</p>
+    <!-- หากเปลี่ยน URL เว็บแอปในอนาคต ให้แก้ href ด้านล่างเพียงจุดเดียว -->
+    <a id="destination" href="https://script.google.com/macros/s/AKfycbysAuRZS2WCnlls8UIDSZ_BR9Sn0RIs0Q3I08vjgRZWY9cCw0pF_85T4HoQCGWAYtdF/exec">เข้าขอใช้บริการ</a>
+  </main>
+  <script>window.location.replace(document.getElementById('destination').href);</script>
+</body>
+</html>
